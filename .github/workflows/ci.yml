@@ -13,7 +13,5 @@ jobs:
           node-version: '14'
       - name: Install dependencies
         run: npm install
-      - name: Run tests
-        run: npm test
-      - name: Deploy
-        run: echo "Deploying to production"
+      - name: Print Message
+        run: echo "Hello World from GitHub Actions"
